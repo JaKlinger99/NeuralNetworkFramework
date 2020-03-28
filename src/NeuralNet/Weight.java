@@ -6,31 +6,34 @@ import Math.Matrix;
 public class Weight {
 
     public Matrix matrix;
-    private int predecessorIndex;
-    private int successorIndex;
+    private Layer predecessor;
+    private Layer successor;
 
-    public Weight(Matrix mat, int predecessor, int successor){
+    public Weight(Matrix mat, Layer predecessor, Layer successor){
         this.matrix = mat;
-        this.predecessorIndex = predecessor;
-        this.successorIndex = successor;
-        Logger.getNotification(EventType.INFO, "Gewichte zwischen Layer: " + predecessorIndex + "und: " + successorIndex + "erzeugt");
+        this.predecessor = predecessor;
+        this.successor = successor;
+        Logger.getNotification(EventType.INFO, "Gewichte zwischen Layer: " + predecessor.getIndex() + "und: " + successor.getIndex() + "erzeugt");
     }
 
-    public int getPredecessorIndex() {
-        return predecessorIndex;
+
+    public Layer getPredecessor() {
+        return predecessor;
     }
 
-    public void setPredecessorIndex(int predecessorIndex) {
-        this.predecessorIndex = predecessorIndex;
+    public void setPredecessor(Layer predecessor) {
+        this.predecessor = predecessor;
     }
 
-    public int getSuccessorIndex() {
-        return successorIndex;
+    public Layer getSuccessor() {
+        return successor;
     }
 
-    public void setSuccessorIndex(int successorIndex) {
-        this.successorIndex = successorIndex;
+    public void setSuccessor(Layer successor) {
+        this.successor = successor;
     }
+
+
 
 
 }

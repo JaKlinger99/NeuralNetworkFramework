@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public abstract class LayerHandler {
 
-    private ArrayList<Layer> layers;
+    private static ArrayList<Layer> layers;
 
     public void addLayerToEnd(Layer layer){
 
@@ -21,6 +21,10 @@ public abstract class LayerHandler {
             return layers.get(index);
         }
 
+    }
+
+    public static int getSize(){
+        return layers.size();
     }
 
 
