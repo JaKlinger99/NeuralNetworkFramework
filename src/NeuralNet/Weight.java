@@ -9,8 +9,9 @@ public class Weight {
     private Layer predecessor;
     private Layer successor;
 
-    public Weight(Matrix mat, Layer predecessor, Layer successor){
-        this.matrix = mat;
+    public Weight(Layer predecessor, Layer successor){
+        this.matrix = new Matrix(predecessor.getNumberOfNodes(), successor.getNumberOfNodes());
+        matrix.randomize();
         this.predecessor = predecessor;
         this.successor = successor;
         Logger.getNotification(EventType.INFO, "Gewichte zwischen Layer: " + predecessor.getIndex() + "und: " + successor.getIndex() + "erzeugt");

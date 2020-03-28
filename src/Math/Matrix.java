@@ -36,6 +36,24 @@ public class Matrix {
         }
     }
 
+    public void randomize(){
+        for (int i = 0; i < getRows(); i++) {
+            for (int j = 0; j < getColumns(); j++) {
+                mat[i][j] = Math.random();
+            }
+        }
+
+    }
+
+    public void printMat(){
+        for (double[] a: mat) {
+            for (double d:a) {
+                System.out.print(d + "  ");
+            }
+            System.out.println("");
+        }
+    }
+
 
 
 

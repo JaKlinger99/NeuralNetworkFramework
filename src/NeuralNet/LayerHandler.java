@@ -7,13 +7,14 @@ import java.util.ArrayList;
 
 public abstract class LayerHandler {
 
-    private static ArrayList<Layer> layers;
+    private static ArrayList<Layer> layers = new ArrayList<>();
 
-    public void addLayerToEnd(Layer layer){
-
+    public static void addLayerToEnd(Layer layer){
+        layers.add(layer);
+        Logger.getNotification(EventType.INFO, "Layer zur Liste hinzugefügt");
     }
 
-    public Layer getLayerAtIndex(int index) throws Exception {
+    public static Layer getLayerAtIndex(int index) throws Exception {
         if(index >= layers.size()){
             Logger.getNotification(EventType.CRITTICAL_ERROR, "Zugriff auf ungültiges Element einer Ebene");
             throw new Exception("Fehler @LayerHandler.getLayerAtIndex()");

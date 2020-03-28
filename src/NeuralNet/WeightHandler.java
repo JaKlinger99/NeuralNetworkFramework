@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 public abstract class WeightHandler {
 
-    private ArrayList<Weight> weights;
+    private static ArrayList<Weight> weights = new ArrayList<>();
 
-    public Weight getPredecessor(Layer layer) throws Exception {
+    public static Weight getPredecessor(Layer layer) throws Exception {
         if (layer.getIndex() == 0){
             return null;
         }
@@ -23,7 +23,7 @@ public abstract class WeightHandler {
         throw new Exception("Fehler @WeightHandler.getPredecessor()");
     }
 
-    public Weight getSuccessor(Layer layer) throws Exception {
+    public static Weight getSuccessor(Layer layer) throws Exception {
         if(LayerHandler.getSize() - 1 == layer.getIndex()){
             //Letzte Ebene ohne Nachfolgende Gewichte
             return null;
@@ -36,4 +36,11 @@ public abstract class WeightHandler {
         Logger.getNotification(EventType.CRITTICAL_ERROR, "Fehler beim Bestimmen der Output Gewichte für Layer: "+ layer.getIndex());
         throw new Exception("Fehler @WeightHandler.getSuccessor()");
     }
+
+    public static void addWeight(Weight w){
+        weights.add(w);
+        Logger.getNotification(EventType.INFO, "Gewicht zur Liste hinzugefügt");
+    }
+
+
 }

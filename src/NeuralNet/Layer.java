@@ -14,7 +14,7 @@ public class Layer {
     public Layer(int nodesNumber, int indexInNet){
         numberOfNodes = nodesNumber;
         index = indexInNet;
-        nodes = new Matrix(new double[nodesNumber][1]);
+        nodes = new Matrix(new double[1][nodesNumber]);
         Logger.getNotification(EventType.INFO, "neue Ebene mit Index: " + index + "erzeugt");
     }
 
