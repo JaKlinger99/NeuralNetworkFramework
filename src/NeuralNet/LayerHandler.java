@@ -28,5 +28,18 @@ public abstract class LayerHandler {
         return layers.size();
     }
 
+    public static void calculatePrediction(){
+        for (int i = 0; i < layers.size(); i++) {
+            try{
+                getLayerAtIndex(i).createPrediction();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            if(i == layers.size()-1){
+                Logger.getNotification(EventType.MINOR_SUCCESS, "Vorhersage getroffen:");
+            }
+        }
+    }
+
 
 }

@@ -5,7 +5,7 @@ import Math.Matrix;
 
 public class Weight {
 
-    public Matrix matrix;
+    private Matrix matrix;
     private Layer predecessor;
     private Layer successor;
 
@@ -34,7 +34,7 @@ public class Weight {
         this.successor = successor;
     }
 
-
-
-
+    public Matrix getMatrix() {
+        return matrix;
+    }
 }

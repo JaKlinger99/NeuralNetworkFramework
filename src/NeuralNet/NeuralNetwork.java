@@ -29,5 +29,12 @@ public class NeuralNetwork {
 
     }
 
+    public void calculatePrediction(){
+        Logger.getNotification(EventType.INFO, "Beginn einer Vorhersage");
+        LayerHandler.calculatePrediction();
+    }
+
+    
+
 
 }

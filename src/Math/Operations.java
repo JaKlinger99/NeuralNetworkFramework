@@ -8,14 +8,14 @@ public abstract class Operations {
 
 
     // Matrix skalieren
-    public Matrix scaleMat(double scale, Matrix matrix){
+    public static Matrix scaleMat(double scale, Matrix matrix){
         matrix.scaleMat(scale);
         return matrix;
     }
 
 
     // Matrizen Multiplikation
-    public Matrix multiplyMat(Matrix mat1, Matrix mat2) throws Exception {
+    public static Matrix multiplyMat(Matrix mat1, Matrix mat2) throws Exception {
 
         //Überprüfen ob Multiplikation möglich
         if(mat1.getColumns() != mat2.getRows()){

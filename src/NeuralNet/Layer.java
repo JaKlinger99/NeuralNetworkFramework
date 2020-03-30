@@ -1,6 +1,7 @@
 package NeuralNet;
 import Logging.EventType;
 import Math.Matrix;
+import Math.Operations;
 import Logging.Logger;
 
 public class Layer {
@@ -24,5 +25,22 @@ public class Layer {
 
     public int getIndex(){
         return index;
+    }
+
+    public Matrix getMatrix() {
+        return nodes;
+    }
+
+    public void createPrediction(){
+        if(index != 0){
+            try{
+                Matrix result = Operations.multiplyMat(LayerHandler.getLayerAtIndex(index - 1).getMatrix(),WeightHandler.getPredecessor(this).getMatrix());
+                nodes = result;
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+
+        }
+
     }
 }
