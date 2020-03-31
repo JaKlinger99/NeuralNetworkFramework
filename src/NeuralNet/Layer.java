@@ -43,4 +43,13 @@ public class Layer {
         }
 
     }
+
+    public void replaceMatrixWith(Matrix m) throws Exception {
+        if (m.getColumns() == nodes.getColumns() && m.getRows() == nodes.getRows()){
+            nodes = m;
+        }else{
+            Logger.getNotification(EventType.CRITTICAL_ERROR, "Versuch eine Matrix mit einer unpassenden zu Ersetzen");
+            throw new Exception("Fehler @Layer.replaceMatrixwith()");
+        }
+    }
 }

@@ -1,27 +1,18 @@
 import NeuralNet.LayerHandler;
 import NeuralNet.NeuralNetwork;
+import NeuralNet.NetManager;
 import NeuralNet.Layer;
+
+import Math.Matrix;
 
 public class Main {
 
     public static void main(String[] args){
-
-        NeuralNetwork n = new NeuralNetwork();
         int[] input = {4,4,4,1};
-        n.createNet(input);
+        NeuralNetwork n = new NeuralNetwork(input);
+        NetManager.setNet(n);
 
 
-
-        Layer l = null;
-        try {
-            l = LayerHandler.getLayerAtIndex(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        for (int i = 0; i < l.getMatrix().getColumns(); i++) {
-            l.getMatrix().setValueAt(0,i, i);
-        }
-        LayerHandler.calculatePrediction();
 
     }
 }

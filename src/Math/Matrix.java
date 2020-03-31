@@ -8,6 +8,14 @@ public class Matrix {
         mat = m;
     }
 
+    public Matrix(double[] v){
+        mat = new double[1][v.length];
+        for (int i = 0; i < v.length; i++) {
+            mat[0][i] = v[i];
+        }
+        printMat();
+    }
+
     public Matrix(int rows, int columns){
         mat = new double[rows][columns];
     }
@@ -53,6 +61,8 @@ public class Matrix {
             System.out.println("");
         }
     }
+
+
 
 
 

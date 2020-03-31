@@ -3,6 +3,7 @@ package NeuralNet;
 import Logging.EventType;
 import Logging.Logger;
 
+
 import java.util.ArrayList;
 
 public abstract class LayerHandler {
@@ -40,6 +41,8 @@ public abstract class LayerHandler {
             }
         }
     }
+
+
 
 
 }
