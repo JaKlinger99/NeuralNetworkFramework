@@ -1,9 +1,5 @@
-import NeuralNet.LayerHandler;
-import NeuralNet.NeuralNetwork;
-import NeuralNet.NetManager;
-import NeuralNet.Layer;
-
-import Math.Matrix;
+import NeuralNet.NetLogic.NeuralNetwork;
+import NeuralNet.NetLogic.NetManager;
 
 public class Main {
 

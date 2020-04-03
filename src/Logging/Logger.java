@@ -1,10 +1,21 @@
 package Logging;
 
+
+/**
+ * Eine abstrakte Klasse, zur kontrollierten Ausgabe von Logging Informationen
+ * @author Jakob
+ */
 public abstract class Logger {
 
 
     private static LoggingLevel level = LoggingLevel.HIGH;
 
+
+    /**
+     * Funktion, die von anderen Funktionen aufgerufen werden kann, falls diese Logging Informationen abgeben möchten
+     * @param type  Angabe zur Art der Logging Nachricht
+     * @param message   kurze Nachricht zum Inhalt der Meldung
+     */
     public static void getNotification(EventType type, String message){
         switch(level){
             case INACTIVE:

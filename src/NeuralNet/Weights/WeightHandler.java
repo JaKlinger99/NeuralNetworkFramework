@@ -1,11 +1,19 @@
-package NeuralNet;
+package NeuralNet.Weights;
 
 import Logging.EventType;
 import Logging.Logger;
+import NeuralNet.Layer.Layer;
+import NeuralNet.Layer.LayerHandler;
+import NeuralNet.Weights.Weight;
 
 
 import java.util.ArrayList;
 
+
+/**
+ * Klasse zur Verwaltung von Gewichtsobjekten
+ * @author Jakob
+ */
 public abstract class WeightHandler {
 
     private static ArrayList<Weight> weights = new ArrayList<>();
@@ -24,8 +32,7 @@ public abstract class WeightHandler {
     }
 
     public static Weight getSuccessor(Layer layer) throws Exception {
-        if(LayerHandler.getSize() - 1 == layer.getIndex()){
-            //Letzte Ebene ohne Nachfolgende Gewichte
+        if(LayerHandler.getOutputLayer().getIndex() == layer.getIndex()){
             return null;
         }
         for (Weight w: weights) {

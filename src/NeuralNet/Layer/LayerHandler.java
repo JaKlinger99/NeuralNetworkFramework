@@ -1,7 +1,8 @@
-package NeuralNet;
+package NeuralNet.Layer;
 
 import Logging.EventType;
 import Logging.Logger;
+import NeuralNet.Layer.Layer;
 
 
 import java.util.ArrayList;
@@ -24,6 +25,11 @@ public abstract class LayerHandler {
         }
 
     }
+
+    public static Layer getOutputLayer(){
+        return layers.get(layers.size()-1);
+    }
+
 
     public static int getSize(){
         return layers.size();

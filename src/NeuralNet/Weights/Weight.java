@@ -1,7 +1,8 @@
-package NeuralNet;
+package NeuralNet.Weights;
 import Logging.EventType;
 import Logging.Logger;
 import Math.Matrix;
+import NeuralNet.Layer.Layer;
 
 public class Weight {
 
