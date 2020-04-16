@@ -1,7 +1,7 @@
 package Math;
 import Logging.EventType;
 import Logging.Logger;
-
+import NeuralNet.Layer.ActivationFunction;
 
 
 public abstract class Operations {
@@ -36,7 +36,52 @@ public abstract class Operations {
             }
             return result;
         }
+    }
 
+    public static Matrix addMat(Matrix mat1, Matrix mat2) throws Exception {
+        //Überprüfen ob Addition möglich ist
+        if(mat1.getColumns() != mat2.getColumns() || mat1.getRows() != mat2.getRows()){
+            Logger.getNotification(EventType.CRITTICAL_ERROR, "Matrizen-Addition mit unkompatiblen Matrizen");
+            throw new Exception("Fehler @Operations.addMat()");
+        }else{
+            Matrix result = new Matrix(mat1.getRows(),mat2.getColumns());
+            for (int i = 0; i < mat1.getRows(); i++) {
+                for (int j = 0; j < mat2.getColumns(); j++) {
+                    result.setValueAt(i,j,mat1.getValueAt(i,j)+ mat2.getValueAt(i,j));
+                }
+            }
+            return result;
+        }
+    }
+
+    public static Matrix applyActivationFunction(Matrix mat, ActivationFunction a){
+        switch (a){
+            case RELU:
+                for (int i = 0; i < mat.getRows(); i++) {
+                    for (int j = 0; j < mat.getColumns(); j++) {
+                        if (mat.getValueAt(i,j) <= 0 ){
+                            mat.setValueAt(i,j,0);
+                        }
+                    }
+                }
+                break;
+        }
+        return mat;
+
+    }
+
+    public static double derivativeOfActivationFunction(double value, ActivationFunction a){
+        switch (a){
+            case RELU:
+                if (value > 0){
+                    return 1;
+                }else{
+                    return 0;
+                }
+            case SIGMOID:
+                //todo
+        }
+        return 1;
     }
 
 

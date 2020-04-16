@@ -8,7 +8,7 @@ package Logging;
 public abstract class Logger {
 
 
-    private static LoggingLevel level = LoggingLevel.HIGH;
+    private static LoggingLevel level = LoggingLevel.MIDDLE;
 
 
     /**
@@ -18,6 +18,24 @@ public abstract class Logger {
      */
     public static void getNotification(EventType type, String message){
         switch(level){
+            case DEBUG:
+                switch (type){
+                    case CRITTICAL_ERROR:
+                        handleCriticalError(message);
+                        break;
+                    case IMPORTANT_SUCCESS:
+                        handleImportantSuccess(message);
+                        break;
+                    case MINOR_SUCCESS:
+                        handleMinorSucess(message);
+                        break;
+                    case INFO:
+                        handleInfo(message);
+                        break;
+                    case DEBUG:
+                        handleDebug(message);
+                }
+                break;
             case INACTIVE:
                 break;
             case LOW:
@@ -35,6 +53,9 @@ public abstract class Logger {
                         break;
                     case IMPORTANT_SUCCESS:
                         handleImportantSuccess(message);
+                        break;
+                    case MINOR_SUCCESS:
+                        handleMinorSucess(message);
                         break;
                 }
 
@@ -57,6 +78,10 @@ public abstract class Logger {
 
                 break;
         }
+    }
+
+    private static void handleDebug(String message) {
+        System.out.println("Debug: " + message);
     }
 
     private static void handleCriticalError(String message){

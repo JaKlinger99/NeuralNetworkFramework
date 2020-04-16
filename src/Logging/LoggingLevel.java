@@ -2,5 +2,5 @@ package Logging;
 
 public enum LoggingLevel {
 
-    LOW, MIDDLE, HIGH, INACTIVE
+    LOW, MIDDLE, HIGH, INACTIVE, DEBUG
 }

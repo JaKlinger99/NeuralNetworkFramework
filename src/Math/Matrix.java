@@ -13,7 +13,7 @@ public class Matrix {
         for (int i = 0; i < v.length; i++) {
             mat[0][i] = v[i];
         }
-        printMat();
+
     }
 
     public Matrix(int rows, int columns){
@@ -54,6 +54,7 @@ public class Matrix {
     }
 
     public void printMat(){
+        System.out.println("Matrix:");
         for (double[] a: mat) {
             for (double d:a) {
                 System.out.print(d + "  ");
@@ -61,6 +62,8 @@ public class Matrix {
             System.out.println("");
         }
     }
+
+
 
 
 

@@ -22,8 +22,9 @@ public abstract class InputManager {
             throw new Exception("Fehler @InputManager.getInputsAt()");
         }else{
             Matrix result =  new Matrix(trainingExamples.get(index).getInputs());
+            return result;
         }
-        return null;
+
     }
 
     public static Matrix getExpectedResultAt(int index) throws Exception {
@@ -32,8 +33,9 @@ public abstract class InputManager {
             throw new Exception("Fehler @InputManager.getInputsAt()");
         }else{
             Matrix result =  new Matrix(trainingExamples.get(index).getExpectedResults());
+            return result;
         }
-        return null;
+
     }
 
 

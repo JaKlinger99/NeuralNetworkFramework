@@ -18,6 +18,7 @@ public abstract class WeightHandler {
 
     private static ArrayList<Weight> weights = new ArrayList<>();
 
+
     public static Weight getPredecessor(Layer layer) throws Exception {
         if (layer.getIndex() == 0){
             return null;
@@ -48,6 +49,7 @@ public abstract class WeightHandler {
         weights.add(w);
         Logger.getNotification(EventType.INFO, "Gewicht zur Liste hinzugefügt");
     }
+
 
 
 }

@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd7edc6-fbde-4f7c-8e50-f474371c6580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeuralNet/Layer/ActivationFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Data/InputManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Data/InputManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Logging/Logger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Logging/Logger$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Logging/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Logging/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Logging/LoggingLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Logging/LoggingLevel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Layer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/LayerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NetManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NeuralNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Weight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/WeightHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Math/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Math/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/Math/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/Math/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Layer/Layer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Layer/Layer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Layer/LayerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Layer/LayerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NetLogic/NetManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NetLogic/NetManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NetLogic/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/NetLogic/NeuralNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Weights/Weight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Weights/Weight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Weights/WeightHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNFramework/NeuralNet/Weights/WeightHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/InputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logging/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logging/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logging/LoggingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logging/LoggingLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/LayerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/NetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Weight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNet/WeightHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,53 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="2431">
+              <caret line="145" column="26" lean-forward="true" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,10 +58,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Math/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Math/Operations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="52" column="130" selection-start-line="52" selection-start-column="130" selection-end-line="52" selection-end-column="130" />
+            <state relative-caret-position="969">
+              <caret line="64" column="129" selection-start-line="64" selection-start-column="129" selection-end-line="64" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -105,11 +108,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logging/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -119,10 +131,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,33 +148,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Logging/EventType.java" />
-        <option value="$PROJECT_DIR$/src/Logging/LoggingLevel.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/WeightHandler.java" />
-        <option value="$PROJECT_DIR$/src/Math/Operations.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/Weight.java" />
         <option value="$PROJECT_DIR$/src/Data/TrainingData.java" />
         <option value="$PROJECT_DIR$/src/Data/InputHandler.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Data/InputManager.java" />
-        <option value="$PROJECT_DIR$/src/Math/Matrix.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/Layer.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/NetManager.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/LayerHandler.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/NeuralNetwork.java" />
-        <option value="$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java" />
-        <option value="$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java" />
-        <option value="$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java" />
-        <option value="$PROJECT_DIR$/src/Logging/Logger.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNet/Layer/ActivationFunction.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java" />
+        <option value="$PROJECT_DIR$/src/Logging/LoggingLevel.java" />
+        <option value="$PROJECT_DIR$/src/Data/InputManager.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java" />
+        <option value="$PROJECT_DIR$/src/Math/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/Math/Operations.java" />
         <option value="$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Logging/Logger.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="56" />
+    <option name="y" value="21" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,14 +229,26 @@
               <item name="NNFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NeuralNet" type="462c0819:PsiDirectoryNode" />
+              <item name="Layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NNFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NNFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNet" type="462c0819:PsiDirectoryNode" />
               <item name="NetLogic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NNFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NNFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNet" type="462c0819:PsiDirectoryNode" />
+              <item name="Weights" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +296,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28624734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.032502707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6782232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,30 +333,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Logging/LoggingLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/InputHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/Data/TrainingData.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,84 +347,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/InputManager.java">
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/ActivationFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -426,20 +361,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="722">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/WeightHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/Logging/LoggingLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/InputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Layer/LayerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/NetLogic/NeuralNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="145" column="26" lean-forward="true" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,8 +450,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NeuralNet/NetLogic/NetManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="52" column="130" selection-start-line="52" selection-start-column="130" selection-end-line="52" selection-end-column="130" />
+        <state relative-caret-position="969">
+          <caret line="64" column="129" selection-start-line="64" selection-start-column="129" selection-end-line="64" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNet/Weights/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
